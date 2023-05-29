@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a QuironJav!"
+        android:textAlignment="center"
+        android:textColor="#0B0B0B"
+        android:textSize="34sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <Button
+        android:id="@+id/btnNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="132dp"
+        android:text="@string/txt_boton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textoInicial"
+        android:layout_width="273dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="69dp"
+        android:text="@string/textoi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/colocarNombre"
+        android:layout_width="309dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="97dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/tex_nom"
+        app:layout_constraintBottom_toTopOf="@+id/btnNombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoInicial"
+        app:layout_constraintVertical_bias="0.666" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
