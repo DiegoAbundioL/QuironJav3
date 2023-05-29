@@ -7,16 +7,47 @@
     tools:context=".Pag3">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="122dp"
-        android:layout_height="33dp"
+        android:id="@+id/tvVerIntro"
+        android:layout_width="206dp"
+        android:layout_height="75dp"
         android:layout_marginStart="173dp"
-        android:layout_marginTop="140dp"
         android:layout_marginEnd="143dp"
-        android:layout_marginBottom="572dp"
-        android:text="Soy la pagina 3"
+        android:layout_marginBottom="600dp"
+        android:text="¿Deseas ponerte al corriente sobre qué es Java?"
+        android:textAlignment="center"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnSi"
+        android:layout_width="201dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="110dp"
+        android:backgroundTint="#537524"
+        android:text="Si"
+        app:layout_constraintBottom_toTopOf="@+id/btnNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/tvVerIntro"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnNo"
+        android:layout_width="186dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="132dp"
+        android:text="No"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
