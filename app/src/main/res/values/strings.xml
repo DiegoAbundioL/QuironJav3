@@ -4,11 +4,15 @@
     <string name="title_activity_pag2">Pag2</string>
     <string name="textoi">Hola!, podrías decirnos tu nombre o usuario?</string>
     <string name="tex_nom">Escribe tu nombre/usuario</string>
+    <string name="que_es_java">Java es una plataforma informática de lenguaje de programación creada por Sun Microsystems en 1995.</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="como_funciona">Funciona a través de estas herramientas:
+        1. Lenguaje Java y API: Documentan todas las clases y métodos que están disponibles(frontend).
+        2. Java Virtual Machine: Ejecuta los programas(backend).</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris

@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#EC9D9D"
     android:fitsSystemWindows="true"
-    tools:context=".Pag2" >
+    tools:context=".Pag2">
 
     <TextView
         android:id="@+id/tvEres"

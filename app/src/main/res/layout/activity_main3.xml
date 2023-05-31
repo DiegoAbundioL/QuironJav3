@@ -29,7 +29,7 @@
         android:layout_marginTop="177dp"
         android:layout_marginEnd="109dp"
         android:layout_marginBottom="110dp"
-        android:backgroundTint="#537524"
+        android:backgroundTint="#4B0082"
         android:text="Si"
         app:layout_constraintBottom_toTopOf="@+id/btnNo"
         app:layout_constraintEnd_toEndOf="parent"
