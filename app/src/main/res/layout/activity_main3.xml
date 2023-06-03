@@ -8,17 +8,19 @@
 
     <TextView
         android:id="@+id/tvVerIntro"
-        android:layout_width="206dp"
-        android:layout_height="75dp"
+        android:layout_width="243dp"
+        android:layout_height="89dp"
         android:layout_marginStart="173dp"
         android:layout_marginEnd="143dp"
-        android:layout_marginBottom="600dp"
+        android:layout_marginBottom="564dp"
+        android:backgroundTint="#1C1C1C"
         android:text="¿Deseas ponerte al corriente sobre qué es Java?"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintHorizontal_bias="0.601"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -29,8 +31,11 @@
         android:layout_marginTop="177dp"
         android:layout_marginEnd="109dp"
         android:layout_marginBottom="110dp"
-        android:backgroundTint="#4B0082"
+        android:backgroundTint="#66CF66"
         android:text="Si"
+        android:textColor="#333131"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/btnNo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.423"
@@ -45,7 +50,10 @@
         android:layout_marginStart="109dp"
         android:layout_marginEnd="110dp"
         android:layout_marginBottom="132dp"
+        android:backgroundTint="#3F51B5"
         android:text="No"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

@@ -10,7 +10,60 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="pagina 5 para menu"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="168dp" />
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="621dp"
+        android:text="¿PARA QUÉ SIRVE?"
+        android:textColor="#DD1717"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desarrollo de videojuegos"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computación en la nube"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motores de procesamieto de datos"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inteligencia artificial"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="314dp"
+        android:layout_height="55dp"
+        android:text="Hardware que puede conectarse a Internet"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="472dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
