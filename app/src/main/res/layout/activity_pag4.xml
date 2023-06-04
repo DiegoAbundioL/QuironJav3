@@ -2,7 +2,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/btnSigPg4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Pag4">
@@ -37,7 +36,6 @@
         android:fontFamily="sans-serif"
         android:text="@string/que_es_java"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -85,6 +83,7 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/textView10"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -104,20 +103,16 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="165dp"
-        android:layout_height="73dp"
-        android:layout_marginStart="215dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="39dp"
-        android:backgroundTint="#599BB8"
+        android:id="@+id/btnSigPg4"
+        android:layout_width="133dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="231dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="44dp"
         android:text="Siguiente"
-        android:textColor="#1B1A1A"
-        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

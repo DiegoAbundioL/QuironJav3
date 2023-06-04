@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:background="@drawable/color_pag1"
     android:layout_height="match_parent"
-    android:backgroundTint="#7BB8B8"
     tools:context=".MainActivity">
 
     <EditText

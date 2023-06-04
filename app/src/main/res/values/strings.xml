@@ -11,9 +11,8 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-    <string name="como_funciona">Funciona a través de estas herramientas:
-        1. Lenguaje Java y API: Documentan todas las clases y métodos que están disponibles(frontend).
-        2. Java Virtual Machine: Ejecuta los programas(backend).</string>
+    <string name="como_funciona_1">1. Lenguaje Java y API: Documentan todas las clases y métodos que están disponibles(frontend).</string>
+    <string name="como_funciona_2">2. Java Virtual Machine: Ejecuta los programas(backend).</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris

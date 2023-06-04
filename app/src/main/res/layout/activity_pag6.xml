@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pag6">
+
+    <TextView
+        android:id="@+id/tvComoFunciona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="635dp"
+        android:text="¿CÓMO FUNCIONA?"
+        android:textColor="#DD1717"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvComoFunciona1"
+        android:layout_width="385dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="52dp"
+        android:text="Funciona a través de las siguientes herramientas:"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvComoFunciona" />
+
+    <TextView
+        android:id="@+id/tvfuncion1"
+        android:layout_width="165dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="368dp"
+        android:text="@string/como_funciona_1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvfuncion2"
+        android:layout_width="163dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="214dp"
+        android:text="@string/como_funciona_2"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
