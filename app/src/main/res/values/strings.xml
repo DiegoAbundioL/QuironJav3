@@ -13,6 +13,7 @@
     <string name="previous">Previous</string>
     <string name="como_funciona_1">1. Lenguaje Java y API: Documentan todas las clases y métodos que están disponibles(frontend).</string>
     <string name="como_funciona_2">2. Java Virtual Machine: Ejecuta los programas(backend).</string>
+    <string name="menu_texto">Elige el tema que quieras aprender</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris

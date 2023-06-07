@@ -24,7 +24,7 @@ public class Pag3 extends AppCompatActivity {
 
         btnNo1 = findViewById(R.id.btnNo);
         btnNo1.setOnClickListener(view -> {
-            Intent neg = new Intent(Pag3.this, Pag5.class);
+            Intent neg = new Intent(Pag3.this, Menu.class);
             startActivity(neg);
         });
     }
