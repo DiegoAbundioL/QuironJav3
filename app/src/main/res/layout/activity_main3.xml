@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/color_pag1"
     android:layout_height="match_parent"
     tools:context=".Pag3">
 
@@ -14,7 +15,7 @@
         android:layout_marginEnd="143dp"
         android:layout_marginBottom="564dp"
         android:backgroundTint="#1C1C1C"
-        android:text="¿Deseas ponerte al corriente sobre qué es Java?"
+        android:text="¿Deseas tener retroalimentación sobre Java?"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="24sp"

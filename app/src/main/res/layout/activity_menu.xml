@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/color_menu"
     android:layout_height="match_parent"
     tools:context=".Menu">
 
@@ -12,6 +13,7 @@
         android:layout_height="70dp"
         android:fontFamily="sans-serif-black"
         android:text="MENÚ"
+        android:textColor="#B7EDD7"
         android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -39,37 +41,43 @@
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="8sp"
                 android:text="Elige un tema del que quieras aprender"
+                android:textColor="#4EEFF4"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button3"
-                android:layout_width="match_parent"
-                android:layout_height="133dp"
-                android:text="Button" />
+                android:id="@+id/btnTema_QueEsComputadora"
+                android:layout_width="395dp"
+                android:layout_height="117dp"
+                android:text="¿Qué es una computadora?"
+                android:textSize="20sp" />
 
             <Button
-                android:id="@+id/button4"
-                android:layout_width="match_parent"
+                android:id="@+id/btnTema_QueEsjava"
+                android:layout_width="395dp"
                 android:layout_height="133dp"
-                android:text="Button" />
+                android:text="Organización física de una computadora"
+                android:textSize="20sp" />
 
             <Button
-                android:id="@+id/button5"
-                android:layout_width="match_parent"
+                android:id="@+id/btnTema_Algoritmo"
+                android:layout_width="393dp"
                 android:layout_height="133dp"
-                android:text="Button" />
+                android:text="Algoritmo"
+                android:textSize="20sp" />
 
             <Button
-                android:id="@+id/button7"
-                android:layout_width="match_parent"
+                android:id="@+id/btnTema_ProgramacionEstructurada"
+                android:layout_width="393dp"
                 android:layout_height="133dp"
-                android:text="Button" />
+                android:text="Programación estructurada"
+                android:textSize="20sp" />
 
             <Button
-                android:id="@+id/button8"
-                android:layout_width="match_parent"
+                android:id="@+id/btnTema_POO"
+                android:layout_width="393dp"
                 android:layout_height="133dp"
-                android:text="Button" />
+                android:text="Programación orientada a objetos"
+                android:textSize="20sp" />
 
         </LinearLayout>
     </ScrollView>

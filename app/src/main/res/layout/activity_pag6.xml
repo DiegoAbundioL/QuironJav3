@@ -38,28 +38,77 @@
 
     <TextView
         android:id="@+id/tvfuncion1"
-        android:layout_width="165dp"
-        android:layout_height="115dp"
+        android:layout_width="196dp"
+        android:layout_height="142dp"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="221dp"
-        android:layout_marginBottom="368dp"
+        android:layout_marginBottom="364dp"
         android:text="@string/como_funciona_1"
-        android:textSize="18sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/tvfuncion2"
-        android:layout_width="185dp"
-        android:layout_height="85dp"
+        android:layout_width="210dp"
+        android:layout_height="111dp"
         android:layout_marginStart="224dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="168dp"
         android:text="@string/como_funciona_2"
-        android:textSize="18sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnSigPg6"
+        android:layout_width="153dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="33dp"
+        android:text="Siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvfuncion2" />
+
+    <Button
+        android:id="@+id/btnAntPg6"
+        android:layout_width="147dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="36dp"
+        android:text="Anterior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnSigPg6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="170dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvfuncion1"
+        app:layout_constraintTop_toBottomOf="@+id/tvComoFunciona1"
+        app:srcCompat="@drawable/jdk" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="152dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="92dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnAntPg6"
+        app:layout_constraintEnd_toStartOf="@+id/tvfuncion2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/jvm" />
 </androidx.constraintlayout.widget.ConstraintLayout>

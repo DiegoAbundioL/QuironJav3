@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--En este bloque generalmente se define que área abarcará la aplicación-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,6 +8,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--Sirve para colocar nombre, correo o contraseña, hint sirve para que el texto no estorbe
+    al momento de esecribir-->
     <EditText
         android:id="@+id/colocarNombre"
         android:layout_width="309dp"
@@ -25,6 +28,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textoInicial"
         app:layout_constraintVertical_bias="0.529" />
 
+    <!--Se agrega un id al boton y su texto-->
     <Button
         android:id="@+id/btnNombre"
         android:layout_width="wrap_content"
@@ -40,6 +44,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
+    <!--Coloca un texto y sus caracteristicas-->
     <TextView
         android:id="@+id/textoInicial"
         android:layout_width="273dp"
@@ -49,11 +54,13 @@
         android:layout_marginEnd="69dp"
         android:baselineAligned="false"
         android:text="@string/textoi"
+        android:textColor="#272C27"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
+    <!--Coloca un texto y sus caracteristicas-->
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
